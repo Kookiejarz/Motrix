@@ -38,12 +38,12 @@ export const LOG_LEVELS = [
   'silly'
 ]
 
-export const MAX_NUM_OF_DIRECTORIES = 5
+export const MAX_NUM_OF_DIRECTORIES = 8
 
 export const ENGINE_RPC_HOST = '127.0.0.1'
 export const ENGINE_RPC_PORT = 16800
 export const ENGINE_MAX_CONCURRENT_DOWNLOADS = 10
-export const ENGINE_MAX_CONNECTION_PER_SERVER = 64
+export const ENGINE_MAX_CONNECTION_PER_SERVER = 256
 
 export const UNKNOWN_PEERID = '%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00'
 export const UNKNOWN_PEERID_NAME = 'unknown'
